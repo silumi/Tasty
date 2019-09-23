@@ -10,6 +10,7 @@ import { RecipeListComponent } from './Recipes/recipe-list/recipe-list.component
 
 import { HeaderComponent } from './header/header.component';
 import { RecipeItemsComponent } from './recipes/recipe-list/recipe-items/recipe-items.component';
+import { TestComponent } from './test/test.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { RecipeItemsComponent } from './recipes/recipe-list/recipe-items/recipe-
     RecipeDetailsComponent,
     RecipeListComponent,
     HeaderComponent,
-    RecipeItemsComponent
+    RecipeItemsComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule
