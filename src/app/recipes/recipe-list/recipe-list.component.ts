@@ -7,10 +7,14 @@ import { Recipe} from '../Recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe [] = [
-    new Recipe('A Test Recipe', 'delicious recipe',
-    'https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/2591001_qfssh_0129.jpg?itok=CltnudwS'),
-    new Recipe('A Test Recipe', 'delicious recipe',
-    'https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/2591001_qfssh_0129.jpg?itok=CltnudwS')];
-  constructor() {}
-ngOnInit() {}
+    new Recipe('A Test Recipe', 'delicious recipe','https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190910-cheesy-bacon-butternut-squash-0048-landscape-pf-1568996714.jpg?crop=0.790xw:0.591xh;0.103xw,0.224xh&resize=768:*'),
+    new Recipe('A Test Recipe', 'delicious recipe','https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190910-cheesy-bacon-butternut-squash-0048-landscape-pf-1568996714.jpg?crop=0.790xw:0.591xh;0.103xw,0.224xh&resize=768:*')]
+    
+   
+  constructor() { 
+
+  }
+ngOnInit(){}
+
 }
+
