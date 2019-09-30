@@ -9,6 +9,7 @@ import { RecipeDetailsComponent } from './Recipes/recipe-details/recipe-details.
 import { HeaderComponent } from './header/header.component';
 import { RecipeItemsComponent } from './recipes/recipe-list/recipe-items/recipe-items.component';
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 
 
@@ -22,7 +23,8 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
     RecipeDetailsComponent,
     HeaderComponent,
     RecipeItemsComponent,
-    RecipeListComponent
+    RecipeListComponent,
+    DropdownDirective
     ],
     imports: [
     BrowserModule,
